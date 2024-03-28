@@ -8,6 +8,8 @@ public class MvcModelApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MvcModelApplication.class, args);
+
+
 	}
 
 }
