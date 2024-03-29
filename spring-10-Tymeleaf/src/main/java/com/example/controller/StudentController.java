@@ -23,9 +23,9 @@ public class StudentController {
 
 
     @RequestMapping("/welcome") //localhost:8080/welcome
-    public String drop(@RequestParam String name){
+    public String drop(){
 
-        System.out.println(name);
+
 
         return "student/welcome";
 
