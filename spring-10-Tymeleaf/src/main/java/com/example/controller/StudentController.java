@@ -20,6 +20,8 @@ public class StudentController {
 
     }
 
+
+
     @RequestMapping("/welcome") //localhost:8080/welcome
     public String drop(@RequestParam String name){
 
