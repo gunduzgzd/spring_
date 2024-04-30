@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping("student")
+@RequestMapping("/student")
 public class StudentController {
 
     @RequestMapping(value = "/register",method = RequestMethod.GET) //localhost:8080/register
@@ -23,8 +23,9 @@ public class StudentController {
     }
 
     @RequestMapping("/welcome") //localhost:8080/student/welcome?name=Gozde
-    public String welcome1(@RequestParam String name){
+    public String welcome1(@RequestParam String name, Model model){
 
+        model.addAttribute("name",name);
         return "student/welcome";
 
     }

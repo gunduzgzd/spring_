@@ -12,5 +12,7 @@ public class ComputerTest {
 
         Monitor theMonitor = container.getBean(Monitor.class);
         System.out.println(theMonitor.getSize());
+
+
     }
 }

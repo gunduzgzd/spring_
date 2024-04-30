@@ -9,14 +9,14 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class Spring07SpringBootApplication {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-        Comment comment  = new Comment();
+        Comment comment = new Comment();
         comment.setAuthor("Johnson");
         comment.setText("Spring Framework");
 
 
-		ApplicationContext container = SpringApplication.run(Spring07SpringBootApplication.class, args);
+        ApplicationContext container = SpringApplication.run(Spring07SpringBootApplication.class, args);
 
         CommentService commentService = container.getBean(CommentService.class);
         commentService.publishComment(comment);
@@ -25,6 +25,6 @@ public class Spring07SpringBootApplication {
         commentService.printDBConfigData();
 
 
-	}
+    }
 
 }

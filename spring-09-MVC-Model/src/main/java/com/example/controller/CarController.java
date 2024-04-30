@@ -35,7 +35,7 @@ public class CarController {
     }
 
     @RequestMapping("/info/{make}/{year}")
-    public String carInfo4(@PathVariable("make") String car,@PathVariable int year){
+    public String carInfo4(@PathVariable("make") String car,@PathVariable("year") int year){
 
         System.out.println(car);
         System.out.println(year);

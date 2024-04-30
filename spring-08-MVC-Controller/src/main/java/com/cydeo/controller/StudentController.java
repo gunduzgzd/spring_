@@ -8,7 +8,7 @@ public class StudentController {
     @RequestMapping("/student")
 
     public String studentInf(){
-        return "student/welcome.html";
+        return "student/welcome";
     }
 
 }
