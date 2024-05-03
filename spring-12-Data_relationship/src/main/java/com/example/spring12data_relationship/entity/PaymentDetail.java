@@ -21,6 +21,9 @@ public class PaymentDetail {
     private BigDecimal merchantPayoutAmount;
     private BigDecimal commissionAmount;
 
+    @OneToOne(mappedBy = "paymentDetail")//giving ownership to payment table-->not having foreign key column
+    private Payment payment;
+
 
     @Column(columnDefinition = "DATE")
     private LocalDate payoutDate;
@@ -30,4 +33,7 @@ public class PaymentDetail {
         this.commissionAmount = commissionAmount;
         this.payoutDate = payoutDate;
     }
+
+
+
 }

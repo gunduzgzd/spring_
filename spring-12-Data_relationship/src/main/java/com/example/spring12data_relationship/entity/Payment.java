@@ -14,6 +14,10 @@ import java.time.LocalDate;
 @Table(name = "payments")
 public class Payment {
 
+    // @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @JoinColumn(name = "paymentDetailId")
+    private PaymentDetail paymentDetail;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,6 +31,9 @@ public class Payment {
 
     @Enumerated(EnumType.STRING)
     private Status paymentStatus;
+
+    @ManyToOne
+    private Merchant merchant;
 
     public Payment(LocalDate createdDate, BigDecimal amount, Status paymentStatus) {
         this.createdDate = createdDate;
