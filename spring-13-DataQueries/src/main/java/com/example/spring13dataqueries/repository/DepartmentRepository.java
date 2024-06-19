@@ -1,7 +1,9 @@
 package com.example.spring13dataqueries.repository;
 
 import com.example.spring13dataqueries.entity.Department;
+import com.example.spring13dataqueries.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
@@ -26,6 +28,10 @@ public interface DepartmentRepository extends JpaRepository<Department, String> 
     //display top 3 departments with division name include 'Hea' without duplicates
 
     List<Department> findDistinctTopByDivisionContains(String pattern);
+
+
+    @Query("select d from Department d where d.division in ?1")
+    List<Department> retrieveDepartmentDivision(List<String> division);
 
 
 
