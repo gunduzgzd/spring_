@@ -1,6 +1,6 @@
-package com.cydeo.repository;
+package com.example.repository;
 
-import com.cydeo.entity.Ticket;
+import com.example.entity.Ticket;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TicketRepository extends JpaRepository<Ticket, Long> {

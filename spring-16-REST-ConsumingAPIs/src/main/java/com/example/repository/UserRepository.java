@@ -1,6 +1,6 @@
-package com.cydeo.repository;
+package com.example.repository;
 
-import com.cydeo.entity.User;
+import com.example.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

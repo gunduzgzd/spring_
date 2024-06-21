@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package com.example.entity;
 
 import com.example.enums.MovieState;
 import com.example.enums.MovieType;

@@ -1,6 +1,6 @@
-package com.cydeo.repository;
+package com.example.repository;
 
-import com.cydeo.entity.Genre;
+import com.example.entity.Genre;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

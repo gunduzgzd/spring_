@@ -1,9 +1,9 @@
 package com.example.controller;
 
-import com.cydeo.dto.GenreDTO;
-import com.cydeo.dto.MovieCinemaDTO;
-import com.cydeo.service.GenreService;
-import com.cydeo.service.MovieCinemaService;
+import com.example.dto.GenreDTO;
+import com.example.dto.MovieCinemaDTO;
+import com.example.service.GenreService;
+import com.example.service.MovieCinemaService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

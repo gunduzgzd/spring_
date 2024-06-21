@@ -1,6 +1,6 @@
-package com.cydeo.dto;
+package com.example.dto;
 
-import com.cydeo.enums.UserRole;
+import com.example.enums.UserRole;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

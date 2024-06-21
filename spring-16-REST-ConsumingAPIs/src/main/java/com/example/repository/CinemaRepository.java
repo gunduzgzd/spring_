@@ -1,6 +1,6 @@
-package com.cydeo.repository;
+package com.example.repository;
 
-import com.cydeo.entity.Cinema;
+import com.example.entity.Cinema;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

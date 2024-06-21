@@ -1,10 +1,10 @@
-package com.cydeo.service.impl;
+package com.example.service.impl;
 
-import com.cydeo.dto.GenreDTO;
-import com.cydeo.entity.Genre;
-import com.cydeo.repository.GenreRepository;
-import com.cydeo.service.GenreService;
-import com.cydeo.util.MapperUtil;
+import com.example.dto.GenreDTO;
+import com.example.entity.Genre;
+import com.example.repository.GenreRepository;
+import com.example.service.GenreService;
+import com.example.util.MapperUtil;
 import org.springframework.stereotype.Service;
 
 @Service

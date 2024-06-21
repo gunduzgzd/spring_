@@ -1,6 +1,6 @@
-package com.cydeo.service;
+package com.example.service;
 
-import com.cydeo.dto.MovieCinemaDTO;
+import com.example.dto.MovieCinemaDTO;
 
 import java.util.List;
 

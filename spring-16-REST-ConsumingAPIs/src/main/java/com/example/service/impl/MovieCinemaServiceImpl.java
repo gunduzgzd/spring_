@@ -1,10 +1,10 @@
-package com.cydeo.service.impl;
+package com.example.service.impl;
 
-import com.cydeo.dto.MovieCinemaDTO;
-import com.cydeo.entity.MovieCinema;
-import com.cydeo.repository.MovieCinemaRepository;
-import com.cydeo.service.MovieCinemaService;
-import com.cydeo.util.MapperUtil;
+import com.example.dto.MovieCinemaDTO;
+import com.example.entity.MovieCinema;
+import com.example.repository.MovieCinemaRepository;
+import com.example.service.MovieCinemaService;
+import com.example.util.MapperUtil;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

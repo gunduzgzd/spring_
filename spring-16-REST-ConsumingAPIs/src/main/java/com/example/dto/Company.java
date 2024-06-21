@@ -1,5 +1,5 @@
 
-package com.cydeo.dto;
+package com.example.dto;
 
 import java.util.HashMap;
 import java.util.Map;

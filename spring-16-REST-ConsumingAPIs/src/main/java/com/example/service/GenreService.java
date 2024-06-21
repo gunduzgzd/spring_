@@ -1,6 +1,6 @@
-package com.cydeo.service;
+package com.example.service;
 
-import com.cydeo.dto.GenreDTO;
+import com.example.dto.GenreDTO;
 
 public interface GenreService {
 
