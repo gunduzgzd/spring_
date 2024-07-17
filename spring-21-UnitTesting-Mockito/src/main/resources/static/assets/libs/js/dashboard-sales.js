@@ -49,7 +49,7 @@ $(function() {
         },
 
 
-         scales: {
+         Scales: {
                                     xAxes: [{
                                         ticks: {
                                             fontSize: 14,
