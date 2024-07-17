@@ -88,4 +88,6 @@ class CalculatorTest {
         assertSame(c1,c2);
         assertNotSame(c1,c3);
     }
+
+    // maven-surefire-plugin --> to use terminal to run your test
 }
